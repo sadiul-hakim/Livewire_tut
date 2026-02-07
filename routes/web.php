@@ -23,5 +23,8 @@ Route::get('/posts', PostComponent::class);
 Route::get('/page1', Page1Component::class);
 Route::get('/page2', Page2Component::class);
 Route::get('/page3', Page3Component::class);
+Route::view('/tailwind', 'TailwindDesign');
+Route::view('/landing-page', 'landing-page');
+Route::view('/positioning-page', 'positioning-page');
 
 require __DIR__ . '/settings.php';
